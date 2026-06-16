@@ -1,0 +1,5 @@
+num = 0
+while num < 50:
+    num +=1
+if num % 2 != 0: # "==" é por número par, "!=" é por número impar
+    print(num)
