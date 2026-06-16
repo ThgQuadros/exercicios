@@ -1,0 +1,24 @@
+# Montar a tabuada de: 5
+# Começar por: 4
+# Terminar em: 7
+
+# Vou montar a tabuada de 5 começando pelo 4 e terminando pelo 7:
+
+"""
+5 X 4 = 20
+5 X 5 = 25
+5 X 6 = 30
+5 X 7 = 35
+"""
+
+# OBS: Você deve verificar se o usuário não digitou o final menor que o inicial.
+
+from time import sleep
+
+base = int(input("Montar a tabuada de: "))
+initial = int(input("Começar em: "))
+final = int(input("Terminar em: "))
+
+while initial > final:
+    initial = int(input("O inicio deve ser menor: "))
+    final = int(input("Terminar em: "))
