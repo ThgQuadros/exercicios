@@ -1,0 +1,8 @@
+qtyProducts = int(input('Quantos produtos comprou? '))
+
+while qtyProducts > 50:
+    qtyProducts = int(input('Somente até 50 produtos: '))
+
+for i in range(qtyProducts):
+    total = (i+1) * 1.99
+    print(f'{i+1} - R$ {total:.2f}')
